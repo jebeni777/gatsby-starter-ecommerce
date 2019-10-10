@@ -2,10 +2,11 @@ import React from 'react'
 import SEO from '../components/SEO'
 import Layout from '../components/Layout'
 
-const Privacy = ({location}) => (
+const Water = ({location}) => (
   <Layout location={location}>
-    <SEO title="Privacy" />
+    <SEO title="Water" />
     <h1>Water Structure/Memory</h1>
+    <h3>Structure</h3>
     <p>
       Japanese writer Masaru Emoto (江本 勝, Emoto Masaru, July 22, 1943 –
       October 17, 2014) was a Japanese author and entrepreneur who said that
@@ -15,6 +16,7 @@ const Privacy = ({location}) => (
       thoughts and words and that polluted water could be cleaned through prayer
       and positive visualization.
     </p>
+    <h3>Memory</h3>
     <p>
       Water memory: Wikipedia states, "Water memory is the purported ability of
       water to retain a memory of substances previously dissolved in it even
@@ -36,5 +38,4 @@ const Privacy = ({location}) => (
     </p>
   </Layout>
 )
-
-export default Privacy
+export default Water
