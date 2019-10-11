@@ -34,7 +34,13 @@ const Footer = () => (
             <Header as="h4" content="About" />
             <List>
               <List.Item as={Link} to="/water/">
-                About Water
+                Water
+              </List.Item>
+              <List.Item as={Link} to="/about/">
+                About
+              </List.Item>
+              <List.Item as={Link} to="/contact/">
+                Contact
               </List.Item>
               <List.Item as={Link} to="/privacy/">
                 Privacy

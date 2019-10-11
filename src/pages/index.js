@@ -45,6 +45,12 @@ const StoreIndex = ({location}) => {
     }
   `)
 
+  // const dummyData = [
+  //   {
+  //     name: 'whatever',
+  //   },
+  // ]
+
   const siteTitle = get(data, 'site.siteMetadata.title')
   const products = get(data, 'allMoltinProduct.edges')
   const filterProductsWithoutImages = products.filter(v => v.node.mainImageHref)
